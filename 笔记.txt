@@ -1,0 +1,41 @@
+媒体查询
+
+通过使用@media可以对不同的媒体类型定义不同的样式。
+
+媒体类型：screen ：所有浏览器 用于计算机显示器
+
+使用：
+
+1、@media 媒体类型 and (媒体特性) { css code}
+2、< link media=“媒体类型 and (媒体特性)” href=‘外部css文件路径’>
+简写： media="(媒体特性)"
+
+响应式布局
+
+一个网站能够兼容多个终端，而不是为每个终端做一个特定的版本。
+
+各大浏览器内核前缀
+
+谷歌（Chrome）: -webkit-
+火狐（Firefox）: -moz-
+欧朋 （0pera）:  -o-
+IE      （IE）:     -ms-
+
+判断 苹果或安卓手机
+window.navigator.appVersion
+
+获取设备像素比
+window.devicePixelRatio
+
+csdn
+https://blog.csdn.net/feifanzhuli/article/details/90140989
+
+
+
+
+
+
+
+
+
+
